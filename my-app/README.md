@@ -1,12 +1,51 @@
-# React + Vite
+# 🧮 Product Comparison Tool — React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, interactive web app that allows users to compare products side-by-side. Built with React, Tailwind CSS v4, and Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌍 [View on Netlify](https://your-app.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+### Light Mode
+![Light Mode](./screenshots/light.png)
+
+### Dark Mode
+![Dark Mode](./screenshots/dark.png)
+
+---
+
+## ✨ Features
+
+- 🔍 Search bar to filter products by name or brand
+- ➕ Add up to 3 products for side-by-side comparison
+- 🎨 Dark/light mode toggle with system preference fallback
+- 💾 Persistent selection via `localStorage`
+- ♿ Keyboard-accessible compare toggle
+- 📱 Fully responsive (mobile + desktop)
+- 🎯 Visual difference highlighting in comparison view
+
+---
+
+## 🛠 Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/mujeeb100/01Assessment.git
+
+# 2. Navigate into the project
+cd my-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
+npm run dev
+
+# 5. Build for production
+npm run build
