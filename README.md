@@ -6,17 +6,7 @@ A responsive, interactive web app that allows users to compare products side-by-
 
 ## 🔗 Live Demo
 
-🌍 [View on Netlify](https://your-app.netlify.app)
-
----
-
-## 📸 Screenshots
-
-### Light Mode
-![Light Mode](./screenshots/light.png)
-
-### Dark Mode
-![Dark Mode](./screenshots/dark.png)
+🌍 [View on Vercel](https://01-assessment.vercel.app/)
 
 ---
 
@@ -39,7 +29,7 @@ A responsive, interactive web app that allows users to compare products side-by-
 git clone https://github.com/mujeeb100/01Assessment.git
 
 # 2. Navigate into the project
-cd my-app
+cd 01Assessment
 
 # 3. Install dependencies
 npm install
